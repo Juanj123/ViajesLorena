@@ -1,0 +1,6 @@
+C:\Users\Angel\Documents\AntTech\Viajes Lore\ViajesLorena\MODEL\bin\Debug\MODEL.dll
+C:\Users\Angel\Documents\AntTech\Viajes Lore\ViajesLorena\MODEL\bin\Debug\MODEL.pdb
+C:\Users\Angel\Documents\AntTech\Viajes Lore\ViajesLorena\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\AntTech\Viajes Lore\ViajesLorena\MODEL\obj\Debug\MODEL.csproj.CoreCompileInputs.cache
+C:\Users\Angel\Documents\AntTech\Viajes Lore\ViajesLorena\MODEL\obj\Debug\MODEL.dll
+C:\Users\Angel\Documents\AntTech\Viajes Lore\ViajesLorena\MODEL\obj\Debug\MODEL.pdb
