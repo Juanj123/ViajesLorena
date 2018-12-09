@@ -7,41 +7,68 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="content/Boostrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="content/estilosMaster.css" rel="stylesheet" />
+  
 
     <title></title>
+
+    <div class="row">
+        <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
+
+            <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #c3497f;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">Excursiones Lore</a>
+
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Principal <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Viajes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Reservaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">¿Quienes somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Contacto</a>
+                        </li>
+                    </ul>
+
+
+
+                    <form class="form-inline my-2 my-lg-0">
+                        <button class="btn btn-success my-2 my-sm-0" type="submit">Iniciar Sesion</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:cornflowerblue">
-        <a class="navbar-brand" href="#">Excursiones Lore</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Principal <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Galeria</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#">Viajes
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Perfil</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
-            </form>
-        </div>
-    </nav>
-   
+
+
+
+
     <form id="form1" runat="server">
         <div>
 
@@ -49,25 +76,48 @@
             </asp:ContentPlaceHolder>
 
             <asp:ContentPlaceHolder ID="footer" runat="server"></asp:ContentPlaceHolder>
+
+
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
+                <div class="card text-center" style="background-color: black">
+                    <div class="card-header" style="color: white; position: center">
+
+                        <div class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2 col-9" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-success my-2 my-sm-0 " type="submit">Buscar</button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+
+                        <h5 class="card-title" style="color: white">Telefono: (445) 455 04 58</h5>
+                        <p class="card-text" style="color: white">Correo: Lorepantoja@gmail.com</p>
+                        <h6 class="card-text" style="color: white">Dirección: Calle 5 de Mayo, Moroleón.</h6>
+                    </div>
+
+                    <div class="card-footer text-muted" style="color: white">
+                        Mapa
+                    </div>
+
+                </div>
+            </div>
         </div>
     </form>
 
-     <%--footer--%>
-    <div class="card text-center">
-        <div class="card-header">
-            Featured
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-        <div class="card-footer text-muted">
-            2 days ago
-        </div>
-    </div>
+    <%--footer--%>
+
     <script src="scripts/jquery-3.2.1.min.js"></script>
     <script src="scripts/popper.min.js"></script>
     <script src="scripts/bootstrap/bootstrap.min.js"></script>
+    <script src="scripts/jquery.scrollUp.js"></script>
+    <script>
+        $(function () {
+            $.scrollUp({
+                scrollImg: true
+            });
+        });
+    </script>
+
 </body>
 </html>
