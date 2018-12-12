@@ -16,7 +16,7 @@
       <li class="list-group-item">
         <div class="form-group col-md-4">
           <label for="inputState">Adultos</label>
-          <select id="inputState" class="form-control">
+          <select id="cmbAdultos" class="form-control">
             <option selected>1</option>
             <option >2</option>
             <option >3</option>
@@ -33,7 +33,7 @@
       <li class="list-group-item">
         <div class="form-group col-md-4">
           <label for="inputState">Niños</label>
-          <select id="inputState" class="form-control">
+          <select id="cmbNino" class="form-control">
             <option selected>1</option>
             <option >2</option>
             <option >3</option>
