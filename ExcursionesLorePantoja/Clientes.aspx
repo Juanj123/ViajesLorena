@@ -11,7 +11,7 @@
             <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
     
                 <div class="container col-md-12 col-lg-12 col-sm-12 col-xl-12" style="overflow:hidden; background-color:white; border-radius: 15px; box-shadow: 1px 1px 2px 1px #818181;" id="conte2">
-                        <h1 align="center">Cartera de Clientes</h1>
+                        <h1 class="text-justify">Cartera de Clientes</h1>
                         
                     <div class="table-responsive-sm">
         <table class="table table-hover">
@@ -50,6 +50,10 @@
     </table>
 
 </div>
+                    </div>
+                </div>
+            </div>
+        
         
         </div>
 </asp:Content>
