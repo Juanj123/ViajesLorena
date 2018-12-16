@@ -3,13 +3,14 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="bod" Runat="Server">
-    <div style="position: absolute;margin-left: 50%; margin-top: 1">
-    <h1 style="position: center">Destino</h1>
+    <div style="position: absolute;margin-left: 50%; margin-top: 1px">
+    <h2 style="position: center">Guanajuato, Guanajuato</h2>
   <div class="card" style="width: 30rem;">
   <img class="card-img-top" src="imgPrueba/pueblos-magicos-de-Guanajuato_Header.jpg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Guanajuato, Guanajuato</h5>
-    <p class="card-text">Viajar a Guanajuato es una experiencia fascinante, es descubrir y recorrer el único estado de México que tiene como privilegio, a dos ciudades Patrimonio Mundial nombradas por la UNESCO, Guanajuato Capital y San Miguel de Allende. Vive lo más profundo de la identidad mexicana, su rico pasado y su dinámico presente.</p>
+    <h4 class="card-text">Precios:</h4>
+    <h5 class="card-text">Adulto: $500</h5>
+    <h5 class="card-text">Niño: $200</h5>
     <a href="#" class="btn btn-success">Mas Informacion</a>
   </div>
 </div>
@@ -66,6 +67,7 @@
   </div>
     </div>
 </div>
+<a href="#" class="btn btn-dark" style="position: absolute; margin-left: 400px; margin-top: -125px; width: 250px; height:70px; font-family: 'Arial';font-size: 20px"><img style="width: 50px; height: 50px;" src="img/Correcto.png" <h2>Confirmar Lugares</h2></a>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" Runat="Server">
 </asp:Content>
