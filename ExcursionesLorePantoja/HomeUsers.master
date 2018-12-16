@@ -24,7 +24,7 @@
 
                 <nav class="navbar navbar-expand-lg navbar-dark">
 
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="PrincipalUsers.aspx">
                         <img src="img/Niña.png" style="bottom: 20px; right: 20px; width: 60px; height: 60px; background-size: cover;" />
                         Excursiones</a>
 
@@ -49,7 +49,7 @@
                                 <a class="nav-link" href="#"><i class="far fa-money-bill-alt"></i>Promociones</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-chair"></i>Reservaciones</a>
+                                <a class="nav-link" href="apartaTuLugar.aspx"><i class="fas fa-chair"></i>Reservaciones</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><i class="fas fa-users"></i>¿Quiénes somos?</a>
@@ -59,7 +59,7 @@
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ángel
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Perfil</a>
+                                    <a class="dropdown-item" href="PerfilUsuario.aspx">Perfil</a>
                                     <a class="dropdown-item" href="#">Configuración de la cuenta</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="#">Cerrar sesión</a>

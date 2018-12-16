@@ -66,7 +66,121 @@
            
         </div>
          <hr />
+     <h1>Ofertas</h1>
+        <div class="container col-md-12 col-lg-12 col-sm-12 col-xl-12" style="overflow:hidden;">
+            <div class="promo" style="float:left; overflow:hidden; ">
+                <div class="imge" >
+                    <img src="img/sunrise-1014712_640.jpg" style="  width: 400px; height: 200px;">
+                </div>
+                <h3>Guanajuato</h3>
+                <div class="txt">
+                     <p class="text-justify pe">
+                    Una mañana, tras un sueño intranquilo, Gregorio Samsa se despertó convertido en un monstruoso insecto.
+                    Estaba echado de espaldas sobre un duro caparazón y, al alzar la cabeza, vio su vientre
+                    convexo y oscuro, surcado por curvadas callosidades, sobre el que casi no se aguantaba la colcha.
+                    </p>
+                </div>
+
+                   <div class="pi" style="overflow: hidden;">
+                    <h4 class="col-6" style="float:left">$200</h4>
+                    <asp:button CssClass="btn btn-success col-6" ID="Button2" runat="server" Text="Reservar" style="float:right"></asp:button>
+                </div>
+            </div>
+            <div class="promo" style="float:left; overflow:hidden;">
+         <div class="imge" >
+                    <img src="img/sunrise-1014712_640.jpg" style="  width: 400px; height: 200px;">
+                </div>
+                <h3>Querétaro</h3>
+                <div class="txt">
+                     <p class="text-justify pe">
+                    Una mañana, tras un sueño intranquilo, Gregorio Samsa se despertó convertido en un monstruoso insecto.
+                    Estaba echado de espaldas sobre un duro caparazón y, al alzar la cabeza, vio su vientre
+                    convexo y oscuro, surcado por curvadas callosidades, sobre el que casi no se aguantaba la colcha.
+                    </p>
+                </div>
+
+                   <div class="pi" style="overflow: hidden;">
+                    <h4 style="float:left">$200</h4>
+                    <asp:button CssClass="btn btn-success" ID="Button1" runat="server" Text="Reservar" style="float:right"></asp:button>
+                </div>
+            </div>
+            <div class="promo" style="float:left; overflow:hidden;"> 
+                <div class="imge" >
+                    <img src="img/sunrise-1014712_640.jpg" style="  width: 400px; height: 200px;">
+                </div>
+                <h3>Isla Mujeres</h3>
+                <div class="txt">
+                     <p class="text-justify pe">
+                         Una mañana, tras un sueño intranquilo, Gregorio Samsa se despertó convertido en un monstruoso insecto.
+                    Estaba echado de espaldas sobre un duro caparazón y, al alzar la cabeza, vio su vientre
+                    convexo y oscuro, surcado por curvadas callosidades, sobre el que casi no se aguantaba la colcha.
+                    </p>
+                </div>
+                <div class="pi" style="overflow: hidden;">
+                    <h4 style="float:left">$200</h4>
+                    <asp:button CssClass="btn btn-success" ID="idReservar" runat="server" Text="Reservar" style="float:right"></asp:button>
+                </div>
+                
+            </div>
+
+              <div class="promo" style="float:left; overflow:hidden; ">
+                <div class="imge" >
+                    <img src="img/sunrise-1014712_640.jpg" style="  width: 400px; height: 200px;">
+                </div>
+                <h3>Guanajuato</h3>
+                <div class="txt">
+                     <p class="text-justify pe">
+                    Una mañana, tras un sueño intranquilo, Gregorio Samsa se despertó convertido en un monstruoso insecto.
+                    Estaba echado de espaldas sobre un duro caparazón y, al alzar la cabeza, vio su vientre
+                    convexo y oscuro, surcado por curvadas callosidades, sobre el que casi no se aguantaba la colcha.
+                    </p>
+                </div>
+
+                   <div class="pi" style="overflow: hidden;">
+                    <h4 style="float:left">$200</h4>
+                    <asp:button CssClass="btn btn-success" ID="Button3" runat="server" Text="Reservar" style="float:right"></asp:button>
+                </div>
+            </div>
+            <div class="promo" style="float:left; overflow:hidden;">
+         <div class="imge" >
+                    <img src="img/sunrise-1014712_640.jpg" style="  width: 400px; height: 200px;">
+                </div>
+                <h3>Querétaro</h3>
+                <div class="txt">
+                     <p class="text-justify pe">
+                    Una mañana, tras un sueño intranquilo, Gregorio Samsa se despertó convertido en un monstruoso insecto.
+                    Estaba echado de espaldas sobre un duro caparazón y, al alzar la cabeza, vio su vientre
+                    convexo y oscuro, surcado por curvadas callosidades, sobre el que casi no se aguantaba la colcha.
+                    </p>
+                </div>
+
+                   <div class="pi" style="overflow: hidden;">
+                    <h4 style="float:left">$200</h4>
+                    <asp:button CssClass="btn btn-success" ID="Button4" runat="server" Text="Reservar" style="float:right"></asp:button>
+                </div>
+            </div>
+            <div class="promo" style="float:left; overflow:hidden;"> 
+                <div class="imge" >
+                    <img src="img/sunrise-1014712_640.jpg" style="  width: 400px; height: 200px;">
+                </div>
+                <h3>Isla Mujeres</h3>
+                <div class="txt">
+                     <p class="text-justify pe">
+                         Una mañana, tras un sueño intranquilo, Gregorio Samsa se despertó convertido en un monstruoso insecto.
+                    Estaba echado de espaldas sobre un duro caparazón y, al alzar la cabeza, vio su vientre
+                    convexo y oscuro, surcado por curvadas callosidades, sobre el que casi no se aguantaba la colcha.
+                    </p>
+                </div>
+                <div class="pi" style="overflow: hidden;">
+                    <h4 style="float:left">$200</h4>
+                    <asp:button CssClass="btn btn-success" ID="Button5" runat="server" Text="Reservar" style="float:right"></asp:button>
+                </div>
+                
+            </div>
+        </div>
+    <hr />
     </div>
+    
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" Runat="Server">
 </asp:Content>
