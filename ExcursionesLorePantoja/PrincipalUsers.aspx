@@ -188,7 +188,9 @@
                 
             </div>
         </div>
+    <hr />
     </div>
+    
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" Runat="Server">
 </asp:Content>
