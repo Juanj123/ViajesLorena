@@ -44,7 +44,7 @@
                                 <a class="nav-link" href="#"><i class="fas fa-suitcase"></i>Viajes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-camera-retro"></i>Galeria</a>
+                                <a class="nav-link" href="Galeria.aspx"><i class="fas fa-camera-retro"></i>Galeria</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><i class="far fa-money-bill-alt"></i>Promociones</a>
@@ -78,6 +78,8 @@
         </div>
     </div>
 
+       <br />
+    <br />
    
     <form id="form1" runat="server">
     <div>
@@ -88,8 +90,7 @@
     </div>
     <br />
     <br />
-    <br />
-    <br />
+  
         <div class="container col-md-12 col-lg-12 col-sm-12 col-xl-12">
             <div class="row">
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
