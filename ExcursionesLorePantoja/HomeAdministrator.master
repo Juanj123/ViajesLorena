@@ -77,8 +77,6 @@
 
         </div>
     </div>
-
-       <br />
     <br />
    
     <form id="form1" runat="server">
