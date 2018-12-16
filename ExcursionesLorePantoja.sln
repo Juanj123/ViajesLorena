@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.136
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ExcursionesLorePantoja", "ExcursionesLorePantoja\", "{21927DE5-6E76-4C4F-9E99-7CB7571E04F0}"
 	ProjectSection(WebsiteProperties) = preProject
