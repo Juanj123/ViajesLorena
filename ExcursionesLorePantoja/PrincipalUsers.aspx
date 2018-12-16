@@ -76,7 +76,7 @@
         </div>
          <hr />
 
-        <h1>Ofertas</h1>
+        <h1>viajes cercanos</h1>
         <div class="container col-md-12 col-lg-12 col-sm-12 col-xl-12" style="overflow:hidden;">
             <div class="promo" style="float:left; overflow:hidden; ">
                 <div class="imge" >
