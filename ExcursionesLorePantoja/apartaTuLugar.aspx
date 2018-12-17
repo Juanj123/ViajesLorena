@@ -11,7 +11,7 @@
     <h4 class="card-text">Precios:</h4>
     <h5 class="card-text">Adulto: $500</h5>
     <h5 class="card-text">Niño: $200</h5>
-    <a href="#" class="btn btn-success">Mas Informacion</a>
+    <asp:LinkButton CssClass="btn btn-success" runat="server"> <i class="fas fa-info"></i> Mas Informacion</asp:LinkButton>
   </div>
 </div>
   </div>
