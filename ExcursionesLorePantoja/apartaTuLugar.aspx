@@ -17,7 +17,7 @@
   </div>
   <div class="card-deck mb-3 text-center">
      <div class="col-md-2" style="margin-top: 1%">
-      <img src="img/Autobus.gif" alt="">
+      <img src="img/Autobus.png" alt="">
     </div>
     <div class="col-md-4" style="margin-top: 5%; margin-left: 20px">
       <div class="card">
