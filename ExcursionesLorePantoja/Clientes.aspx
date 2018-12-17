@@ -3,25 +3,24 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="bod" Runat="Server">
-     <link href="content/bootstrap.css" rel="stylesheet" />
-        <br />
 
         <div class="container col-md-12 col-lg-12 col-sm-12 col-xl-12">
             <div class="row">
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
                     <div class="container col-md-12 col-lg-12 col-sm-12 col-xl-12" style="overflow:hidden; background-color:white; border-radius: 15px; box-shadow: 1px 1px 2px 1px #818181;" id="conte2">
-                        <h1 align="center">Agenda de Clientes</h1>
+                        <h1>Agenda de Clientes</h1>
                         <br />
-                            <form class="container form-group col-sm-6">
-                                <input class="form-control col-sm-10" type="search" placeholder="Buscar" aria-label="Search"> <button class="btn btn-success col-sm-1" type="submit">Buscar</button>
-                            </form>
+                        <div class="form-inline my-2 my-lg-0 col-md-12 col-lg-12 col-sm-12 col-xl-12">
+                            <input class="form-control mr-sm-2 col-9" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-success my-2 my-sm-0 col-2" type="submit"> <i class="fas fa-search"></i> Buscar</button>
+                        </div>
                         <br />
                         <br />
 
                         <div class="table-responsive-sm">
                             <table class="table table-hover">
-                                <thead class="thead-dark">
-                                    <tr>
+                                <thead>
+                                    <tr style="background-color: #c3497f; color:white;">
                                         <th scope="col">#</th>
                                         <th scope="col">Nombre</th>
                                         <th scope="col">Destino seleccionado</th>
@@ -42,9 +41,9 @@
                                         <td>ashdj@gmail.com</td>
                                         <td>$3,500</td>
                                         <td>Pendiente</td>
-                                        <td><button type="button" class="btn btn-success">Editar</button> <button type="button" class="btn btn-danger">Eliminar</button></td>
+                                        <td><button type="button" class="btn btn-success"><i class="fas fa-edit"></i>  Editar</button> <button type="button" class="btn btn-danger">  <i class="fas fa-trash-alt"></i> Eliminar</button></td>
                                     </tr>
-                                    <tr>
+                                    <tr style="background-color:#D6D7D7; color:black;">
                                         <th scope="row">2</th>
                                         <td>Esteban</td>
                                         <td>Guanajuato</td>
@@ -52,7 +51,7 @@
                                         <td>ashdj@gmail.com</td>
                                         <td>$2,800</td>
                                         <td>Pagado</td>
-                                        <td><button type="button" class="btn btn-success">Editar</button> <button type="button" class="btn btn-danger">Eliminar</button></td>
+                                        <td><button type="button" class="btn btn-success"> <i class="fas fa-edit"></i> Editar</button> <button type="button" class="btn btn-danger"> <i class="fas fa-trash-alt"></i> Eliminar</button></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">3</th>
@@ -62,7 +61,7 @@
                                         <td>ashdj@gmail.com</td>
                                         <td>$5,300</td>
                                         <td>Pendiente</td>
-                                        <td><button type="button" class="btn btn-success">Editar</button> <button type="button" class="btn btn-danger">Eliminar</button></td>
+                                        <td><button type="button" class="btn btn-success"> <i class="fas fa-edit"></i> Editar</button> <button type="button" class="btn btn-danger"> <i class="fas fa-trash-alt"></i> Eliminar</button></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">4</th>
@@ -72,7 +71,7 @@
                                         <td>ashdj@gmail.com</td>
                                         <td>$3,500</td>
                                         <td>Pendiente</td>
-                                        <td><button type="button" class="btn btn-success">Editar</button> <button type="button" class="btn btn-danger">Eliminar</button></td>
+                                        <td><button type="button" class="btn btn-success"> <i class="fas fa-edit"></i> Editar</button> <button type="button" class="btn btn-danger"> <i class="fas fa-trash-alt"></i>  Eliminar</button></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">5</th>
@@ -82,7 +81,7 @@
                                         <td>ashdj@gmail.com</td>
                                         <td>$13,700</td>
                                         <td>Pagado</td>
-                                        <td><button type="button" class="btn btn-success">Editar</button> <button type="button" class="btn btn-danger">Eliminar</button></td>
+                                        <td><button type="button" class="btn btn-success"> <i class="fas fa-edit"></i> Editar</button> <button type="button" class="btn btn-danger"> <i class="fas fa-trash-alt"></i> Eliminar</button></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">6</th>
@@ -92,7 +91,7 @@
                                         <td>ashdj@gmail.com</td>
                                         <td>$2,800</td>
                                         <td>Pendiente</td>
-                                        <td><button type="button" class="btn btn-success">Editar</button> <button type="button" class="btn btn-danger">Eliminar</button></td>
+                                        <td><button type="button" class="btn btn-success"> <i class="fas fa-edit"></i> Editar</button> <button type="button" class="btn btn-danger"> <i class="fas fa-trash-alt"></i> Eliminar</button></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">7</th>
@@ -102,7 +101,7 @@
                                         <td>ashdj@gmail.com</td>
                                         <td>$5,300</td>
                                         <td>Pagado</td>
-                                        <td><button type="button" class="btn btn-success">Editar</button> <button type="button" class="btn btn-danger">Eliminar</button></td>
+                                        <td><button type="button" class="btn btn-success"> <i class="fas fa-edit"></i> Editar</button> <button type="button" class="btn btn-danger"> <i class="fas fa-trash-alt"></i> Eliminar</button></td>
                                     </tr>
                             </tbody>
                         </table>

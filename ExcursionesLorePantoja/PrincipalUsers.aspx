@@ -91,9 +91,9 @@
                     </p>
                 </div>
 
-                   <div class="pi" style="overflow: hidden;">
-                    <h4 class="col-6" style="float:left">$200</h4>
-                    <asp:button CssClass="btn btn-success col-6" ID="Button2" runat="server" Text="Reservar" style="float:right"></asp:button>
+                  <div class="pi" style="overflow: hidden;">
+                    <h4 style="float:left">$200</h4>
+                    <asp:LinkButton CssClass="btn btn-success" ID="LinkButton1" runat="server" Text="Reservar" style="float:right"><i class="fas fa-bus"></i> Reservar</asp:LinkButton>
                 </div>
             </div>
             <div class="promo" style="float:left; overflow:hidden;">
@@ -111,7 +111,7 @@
 
                    <div class="pi" style="overflow: hidden;">
                     <h4 style="float:left">$200</h4>
-                    <asp:button CssClass="btn btn-success" ID="Button1" runat="server" Text="Reservar" style="float:right"></asp:button>
+                    <asp:LinkButton CssClass="btn btn-success" ID="Button1" runat="server" Text="Reservar" style="float:right"> <i class="fas fa-bus"></i> Reservar </asp:LinkButton>
                 </div>
             </div>
             <div class="promo" style="float:left; overflow:hidden;"> 
@@ -128,7 +128,7 @@
                 </div>
                 <div class="pi" style="overflow: hidden;">
                     <h4 style="float:left">$200</h4>
-                    <asp:button CssClass="btn btn-success" ID="idReservar" runat="server" Text="Reservar" style="float:right"></asp:button>
+                    <asp:LinkButton CssClass="btn btn-success" ID="idReservar" runat="server" Text="Reservar" style="float:right"> <i class="fas fa-bus"></i> Reservar</asp:LinkButton>
                 </div>
                 
             </div>
@@ -148,7 +148,7 @@
 
                    <div class="pi" style="overflow: hidden;">
                     <h4 style="float:left">$200</h4>
-                    <asp:button CssClass="btn btn-success" ID="Button3" runat="server" Text="Reservar" style="float:right"></asp:button>
+                    <asp:LinkButton CssClass="btn btn-success" ID="Button3" runat="server" Text="Reservar" style="float:right"> <i class="fas fa-bus"></i> Reservar</asp:LinkButton>
                 </div>
             </div>
             <div class="promo" style="float:left; overflow:hidden;">
@@ -166,7 +166,7 @@
 
                    <div class="pi" style="overflow: hidden;">
                     <h4 style="float:left">$200</h4>
-                    <asp:button CssClass="btn btn-success" ID="Button4" runat="server" Text="Reservar" style="float:right"></asp:button>
+                    <asp:LinkButton CssClass="btn btn-success" ID="Button4" runat="server" Text="Reservar" style="float:right"><i class="fas fa-bus"></i> Reservar</asp:LinkButton>
                 </div>
             </div>
             <div class="promo" style="float:left; overflow:hidden;"> 
@@ -183,7 +183,7 @@
                 </div>
                 <div class="pi" style="overflow: hidden;">
                     <h4 style="float:left">$200</h4>
-                    <asp:button CssClass="btn btn-success" ID="Button5" runat="server" Text="Reservar" style="float:right"></asp:button>
+                    <asp:LinkButton CssClass="btn btn-success" ID="Button5" runat="server" Text="Reservar" style="float:right"><i class="fas fa-bus"></i> Reservar</asp:LinkButton>
                 </div>
                 
             </div>
