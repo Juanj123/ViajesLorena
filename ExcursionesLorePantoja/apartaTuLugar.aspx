@@ -3,9 +3,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="bod" Runat="Server">
-<div style="position: absolute;margin-left: 50%; margin-top: 1">
+<div style="position: absolute;margin-left: 65%; margin-top: 1px">
     <h2 style="position: center">Guanajuato, Guanajuato</h2>
-  <div class="card" style="width: 30rem;">
+  <div class="card" style="width: 25rem;">
   <img class="card-img-top" src="imgPrueba/pueblos-magicos-de-Guanajuato_Header.jpg" alt="Card image cap">
   <div class="card-body">
     <h4 class="card-text">Precios:</h4>
@@ -16,10 +16,10 @@
 </div>
   </div>
   <div class="card-deck mb-3 text-center">
-     <div class="col-md-2" style="margin-top: 1%">
+     <div class="col-md-2" style="margin-top: 1%; margin-left: 50px">
       <img src="img/Autobus.png" alt="">
     </div>
-    <div class="col-md-4" style="margin-top: 5%; margin-left: 20px">
+    <div class="col-md-4" style="margin-top: 5%; margin-left: 100px">
       <div class="card">
     <div class="card-header bg-dark text-white">
       <h4 class="my-0 font-weight-normal">Aparta Tu Lugar</h4>
@@ -62,14 +62,16 @@
         </div>
         <label id="lblTotalNinos" style="position: absolute; margin-left: -50px; margin-top: -50px">Total a pagar</label>
       </li>
-      <li class="list-group-item">Total
+      <li class="list-group-item">
+    <h3 style="margin-left: -70px">Total de Asientos</h3>
+      <input class="form-control" id="txtTotal" readonly="readonly" type="text" style="position:inherit; width: 50px;height:50px;text-align:center; margin-top:-45px; margin-left:270px"/>
       </li>
     </ul>
   </div>
     </div>
 </div>
-<a href="#" class="btn btn-dark" style="position: absolute; margin-left: 400px; margin-top: -225px; width: 250px; height:70px; font-family: 'Arial';font-size: 20px"><img style="width: 50px; height: 50px;" src="img/Correcto.png" <h2>Confirmar Lugares</h2></a>
-  <TABLE border="1" style="margin-left: 45px; margin-top: -550px; position: absolute; z-index: 50px; text-align: center;">
+<a href="#" class="btn btn-dark" style="position: absolute; margin-left: 470px; margin-top: -200px; width: 250px; height:70px; font-family: 'Arial';font-size: 20px"><img style="width: 50px; height: 50px;" src="img/Correcto.png" <h2>Confirmar Lugares</h2></a>
+  <TABLE border="1" style="margin-left: 95px; margin-top: -550px; position: absolute; z-index: auto; text-align: center;">
     <TR>
       <td WIDTH="40" HEIGHT="40">1</td>
       <td WIDTH="40" HEIGHT="40">2</td>
@@ -120,7 +122,7 @@
     </TR>
   </TABLE>
 
-    <TABLE border="1" style="margin-left: 145px; margin-top: -550px; position: absolute; z-index: 50px; text-align: center;">
+    <TABLE border="1" style="margin-left: 195px; margin-top: -550px; position: absolute; z-index: 50px; text-align: center;">
     <TR>
       <td WIDTH="40" HEIGHT="40">3</td>
       <td WIDTH="40" HEIGHT="40">4</td>
@@ -170,6 +172,9 @@
       <td WIDTH="40" HEIGHT="40">48</td>
     </TR>
   </TABLE>
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+    <script src="scripts/internos/apartaTuLugar.js"></script>
+
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" Runat="Server">
 </asp:Content>
