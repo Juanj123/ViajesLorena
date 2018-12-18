@@ -41,7 +41,8 @@
             <option >10</option>
           </select>
         </div>
-        <label id="lblTotalAdultos" style="position: absolute; margin-left: -50px; margin-top: -50px">Total a pagar</label>
+        <label id="lblAdultos" style="position: absolute; margin-left: -50px; margin-top: -50px">Total a pagar</label>
+        <h1 id="lblTotalAdultos" style="position: absolute; margin-left: 250px; margin-top: -63px"></h1>
       </li>
       <li class="list-group-item">
         <div class="form-group col-md-4">
@@ -60,7 +61,8 @@
             <option >10</option>
           </select>
         </div>
-        <label id="lblTotalNinos" style="position: absolute; margin-left: -50px; margin-top: -50px">Total a pagar</label>
+        <label id="lblNinos" style="position: absolute; margin-left: -50px; margin-top: -50px">Total a pagar</label>
+        <h1 id="lblTotalNinos" style="position: absolute; margin-left: 250px; margin-top: -65px"></h1>
       </li>
       <li class="list-group-item">
     <h3 style="margin-left: -70px">Total de Asientos</h3>
@@ -70,106 +72,106 @@
   </div>
     </div>
 </div>
-<a href="#" class="btn btn-dark" style="position: absolute; margin-left: 470px; margin-top: -200px; width: 250px; height:70px; font-family: 'Arial';font-size: 20px"><img style="width: 50px; height: 50px;" src="img/Correcto.png" <h2>Confirmar Lugares</h2></a>
-  <TABLE border="1" style="margin-left: 95px; margin-top: -550px; position: absolute; z-index: auto; text-align: center;">
+    <button id="btnGenerar" type="button" class="btn btn-dark" style="position: absolute; margin-left: 470px; margin-top: -200px; width: 250px; height:70px; font-family: 'Arial';font-size: 20px"><img style="width: 50px; height: 50px;" src="img/Correcto.png" <h2>Confirmar Lugares</h2></button>
+  <TABLE border="1" style="margin-left: 90px; margin-top: -550px; position: absolute; z-index: auto; text-align: center;">
     <TR>
-      <td WIDTH="40" HEIGHT="40">1</td>
-      <td WIDTH="40" HEIGHT="40">2</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">01</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">02</button></TD>
     </TR>
     <TR>
-      <TD WIDTH="40" HEIGHT="40" style="background-color: red">5</TD>
-      <TD WIDTH="40" HEIGHT="40" style="background-color: red">6</TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">05</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">06</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">9</td>
-      <td WIDTH="40" HEIGHT="40">10</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">09</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">10</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">13</td>
-      <td WIDTH="40" HEIGHT="40">14</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">13</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">14</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">17</td>
-      <td WIDTH="40" HEIGHT="40">18</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">17</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">18</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">21</td>
-      <td WIDTH="40" HEIGHT="40">22</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">21</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">22</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">25</td>
-      <td WIDTH="40" HEIGHT="40">26</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">25</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">26</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">29</td>
-      <td WIDTH="40" HEIGHT="40">30</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">29</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">30</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">33</td>
-      <td WIDTH="40" HEIGHT="40">34</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">33</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">34</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">37</td>
-      <td WIDTH="40" HEIGHT="40">38</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">37</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">38</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">41</td>
-      <td WIDTH="40" HEIGHT="40">42</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">41</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">42</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">45</td>
-      <td WIDTH="40" HEIGHT="40">46</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">45</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">46</button></TD>
     </TR>
   </TABLE>
 
-    <TABLE border="1" style="margin-left: 195px; margin-top: -550px; position: absolute; z-index: 50px; text-align: center;">
+    <TABLE border="1" style="margin-left: 190px; margin-top: -550px; position: absolute; z-index: 50px; text-align: center;">
     <TR>
-      <td WIDTH="40" HEIGHT="40">3</td>
-      <td WIDTH="40" HEIGHT="40">4</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">03</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">04</button></TD>
     </TR>
     <TR>
-      <TD WIDTH="40" HEIGHT="40" style="background-color: green">7</TD>
-      <TD WIDTH="40" HEIGHT="40" style="background-color: green">8</TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">07</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">08</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">11</td>
-      <td WIDTH="40" HEIGHT="40">12</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">11</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">12</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">15</td>
-      <td WIDTH="40" HEIGHT="40">16</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">15</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">16</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">19</td>
-      <td WIDTH="40" HEIGHT="40">20</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">19</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">20</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">23</td>
-      <td WIDTH="40" HEIGHT="40">24</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">23</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">24</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">27</td>
-      <td WIDTH="40" HEIGHT="40">28</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">27</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">28</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">31</td>
-      <td WIDTH="40" HEIGHT="40">32</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">31</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">32</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">35</td>
-      <td WIDTH="40" HEIGHT="40">36</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">35</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">36</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">39</td>
-      <td WIDTH="40" HEIGHT="40">40</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">39</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">40</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">43</td>
-      <td WIDTH="40" HEIGHT="40">44</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">43</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">44</button></TD>
     </TR>
      <TR>
-      <td WIDTH="40" HEIGHT="40">47</td>
-      <td WIDTH="40" HEIGHT="40">48</td>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">47</button></TD>
+      <TD WIDTH="40" HEIGHT="40"><button type="button" class="btn btn-light">48</button></TD>
     </TR>
   </TABLE>
     <script src="scripts/jquery-3.2.1.min.js"></script>
