@@ -70,7 +70,7 @@
                 
             </div>
             <div class="col-4" style="float:left; border-radius: 15px;" id="im1">
-                <img src="img/maldives-1993704_640.jpg"  style="width:90%; height:90%;"/>
+                <img src="img/park.jpg"  style="width:90%; height:90%;"/>
             </div>
            
         </div>
@@ -98,7 +98,7 @@
             </div>
             <div class="promo" style="float:left; overflow:hidden;">
          <div class="imge" >
-                    <img src="img/sunrise-1014712_640.jpg" style="  width: 400px; height: 200px;">
+                    <img src="img/benches.jpg" style="  width: 400px; height: 200px;">
                 </div>
                 <h3>Querétaro</h3>
                 <div class="txt">
@@ -116,7 +116,7 @@
             </div>
             <div class="promo" style="float:left; overflow:hidden;"> 
                 <div class="imge" >
-                    <img src="img/sunrise-1014712_640.jpg" style="  width: 400px; height: 200px;">
+                    <img src="img/bridge.jpg" style="  width: 400px; height: 200px;">
                 </div>
                 <h3>Isla Mujeres</h3>
                 <div class="txt">
@@ -135,7 +135,7 @@
 
               <div class="promo" style="float:left; overflow:hidden; ">
                 <div class="imge" >
-                    <img src="img/sunrise-1014712_640.jpg" style="  width: 400px; height: 200px;">
+                    <img src="img/coast.jpg" style="  width: 400px; height: 200px;">
                 </div>
                 <h3>Guanajuato</h3>
                 <div class="txt">
@@ -153,7 +153,7 @@
             </div>
             <div class="promo" style="float:left; overflow:hidden;">
          <div class="imge" >
-                    <img src="img/sunrise-1014712_640.jpg" style="  width: 400px; height: 200px;">
+                    <img src="img/rails.jpg" style="  width: 400px; height: 200px;">
                 </div>
                 <h3>Querétaro</h3>
                 <div class="txt">
@@ -171,7 +171,7 @@
             </div>
             <div class="promo" style="float:left; overflow:hidden;"> 
                 <div class="imge" >
-                    <img src="img/sunrise-1014712_640.jpg" style="  width: 400px; height: 200px;">
+                    <img src="img/rocks.jpg" style="  width: 400px; height: 200px;">
                 </div>
                 <h3>Isla Mujeres</h3>
                 <div class="txt">
