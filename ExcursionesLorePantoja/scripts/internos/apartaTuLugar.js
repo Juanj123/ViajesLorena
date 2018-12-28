@@ -44,3 +44,16 @@ $("#cmbNinos").change(function () {
 $("#btnGenerar").click(function () {
     alert("Hola Compa");
 });
+
+$("#checkNiños").click(function () {
+    mostrar();
+});
+
+function mostrar() {
+    $('#oculto').addClass('animated slideInDown delay-2s form-group col-md-4');
+    $('#lblNinos').addClass('animated slideInDown delay-2s');
+    $('#lblTotalNinos').addClass('animated slideInDown delay-2s');
+    $('#oculto').css({'display': 'block'});
+    $('#lblTotalNinos').css({ 'display': 'block' });
+    $('#lblNinos').css({ 'display': 'block' });
+}

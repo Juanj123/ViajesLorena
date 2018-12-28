@@ -3,7 +3,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="bod" Runat="Server">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+  <link rel="stylesheet" href="content/animate.min.css">
+    <link rel="stylesheet" href="content/apartaTuLugar.css" />
+ <h1 class="animated infinite slideInDown delay-2s" style="animation-duration: 3s; animation-delay: 2s; animation-iteration-count: infinite;">Hola Compa</h1>
 <div style="position: absolute;margin-left: 65%; margin-top: 1px">
     <h2 style="position: center">Guanajuato, Guanajuato</h2>
   <div class="card" style="width: 25rem;">
@@ -44,9 +47,19 @@
         </div>
         <label id="lblAdultos" style="position: absolute; margin-left: -50px; margin-top: -50px">Total a pagar</label>
         <h1 id="lblTotalAdultos" style="position: absolute; margin-left: 250px; margin-top: -63px"></h1>
+                  <div class="container">			
+	<div class="well well-sm text-center">
+		<div class="btn-group" data-toggle="buttons">
+			<label id="checkNiños" class="btn btn-success active">¿Usted llevara niños Mayores de 6 Años?
+				<input id="checkNiños" type="radio" name="options">
+				<span class="glyphicon glyphicon-ok"></span>
+			</label>
+		</div>
+	</div>
+</div>
       </li>
       <li class="list-group-item">
-        <div class="form-group col-md-4">
+        <div id="oculto" class="form-group col-md-4" style="display:none">
           <label for="inputState">Niños</label>
           <select id="cmbNinos" class="form-control">
             <option selected>0</option>
@@ -62,8 +75,8 @@
             <option >10</option>
           </select>
         </div>
-        <label id="lblNinos" style="position: absolute; margin-left: -50px; margin-top: -50px">Total a pagar</label>
-        <h1 id="lblTotalNinos" style="position: absolute; margin-left: 250px; margin-top: -65px"></h1>
+        <label id="lblNinos" style="position: absolute; margin-left: 130px; margin-top: -50px; display: none">Total a pagar</label>
+        <h1 id="lblTotalNinos" style="position: absolute; margin-left: 250px; margin-top: -65px; display: none"></h1>
       </li>
       <li class="list-group-item">
     <h3 style="margin-left: -70px">Total de Asientos</h3>
